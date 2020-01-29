@@ -1,19 +1,20 @@
-# Maintainer: xgdgsc <xgdgsc @t gmail dot com>
+# Maintainer: Shun Terabayashi <shunonymous@gmail.com>
+# Contributor: xgdgsc <xgdgsc @t gmail dot com>
 
-pkgname=android-sdk-build-tools
+pkgname=android-rebuilds-sdk-build-tools-bin
 _ver=29.0.2
 pkgver=r$_ver
 pkgrel=1
-pkgdesc='Build-Tools for Google Android SDK (aapt, aidl, dexdump, dx, llvm-rs-cc)'
+pkgdesc='Build-Tools for Android SDK provided by Android Rebuilds (aapt, aidl, dexdump, dx, llvm-rs-cc)'
 arch=('i686' 'x86_64')
-url="https://developer.android.com/studio/releases/build-tools"
+url="https://android-rebuilds.beuc.net/"
 license=('custom')
 depends=('gcc-libs' 'zlib')
 optdepends=('lib32-gcc-libs' 'lib32-zlib')
 _sdk=android-sdk
 
-source=("https://dl-ssl.google.com/android/repository/build-tools_${pkgver}-linux.zip")
-sha256sums=('1e9393cbfd4a4b82e30e7f55ab38db4a5a3259db93d5821c63597bc74522fa08')
+source=("https://android-rebuilds.beuc.net/dl/repository/sdk-repo-linux-build-tools-eng.10.0.0_r14.zip")
+sha256sums=('e9e16315087925f35ea25cb17f1892a29772cfc00db7ad7542703da427f9dfac')
 _android=android-10
 options=('!strip')
 
