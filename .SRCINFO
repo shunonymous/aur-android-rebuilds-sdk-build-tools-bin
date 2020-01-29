@@ -10,6 +10,7 @@ pkgbase = android-rebuilds-sdk-build-tools-bin
 	depends = zlib
 	optdepends = lib32-gcc-libs
 	optdepends = lib32-zlib
+	provides = android-sdk-build-tools
 	options = !strip
 	source = https://android-rebuilds.beuc.net/dl/repository/sdk-repo-linux-build-tools-eng.10.0.0_r14.zip
 	sha256sums = e9e16315087925f35ea25cb17f1892a29772cfc00db7ad7542703da427f9dfac

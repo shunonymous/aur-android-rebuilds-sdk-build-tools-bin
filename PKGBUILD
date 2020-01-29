@@ -11,6 +11,7 @@ url="https://android-rebuilds.beuc.net/"
 license=('custom')
 depends=('gcc-libs' 'zlib')
 optdepends=('lib32-gcc-libs' 'lib32-zlib')
+provides=('android-sdk-build-tools')
 _sdk=android-sdk
 
 source=("https://android-rebuilds.beuc.net/dl/repository/sdk-repo-linux-build-tools-eng.10.0.0_r14.zip")
