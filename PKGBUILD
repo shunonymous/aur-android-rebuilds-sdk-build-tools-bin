@@ -2,7 +2,7 @@
 # Contributor: xgdgsc <xgdgsc @t gmail dot com>
 
 pkgname=android-rebuilds-sdk-build-tools-bin
-_ver=29.0.2
+_ver=30.0.3
 pkgver=r$_ver
 pkgrel=1
 pkgdesc='Build-Tools for Android SDK provided by Android Rebuilds (aapt, aidl, dexdump, dx, llvm-rs-cc)'
@@ -14,9 +14,9 @@ optdepends=('lib32-gcc-libs' 'lib32-zlib')
 provides=('android-sdk-build-tools')
 _sdk=android-sdk
 
-source=("https://android-rebuilds.beuc.net/dl/repository/sdk-repo-linux-build-tools-eng.10.0.0_r14.zip")
-sha256sums=('e9e16315087925f35ea25cb17f1892a29772cfc00db7ad7542703da427f9dfac')
-_android=android-10
+source=("https://android-rebuilds.beuc.net/dl/repository/sdk-repo-linux-build-tools-eng.11.0.0_r27.zip")
+sha256sums=('53973f73e9a60829c4f920acbed5fe5e784b5efc0972f09938da185c384e3470')
+_android=android-11
 options=('!strip')
 
 package() {
